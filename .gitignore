@@ -1,0 +1,4 @@
+target/*
+.DS_STORE
+poc-logback.iml
+.idea/*
