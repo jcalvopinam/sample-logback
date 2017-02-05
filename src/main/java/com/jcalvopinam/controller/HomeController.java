@@ -4,6 +4,7 @@ import com.jcalvopinam.console.Linux;
 import com.jcalvopinam.console.Mac;
 import com.jcalvopinam.console.OS;
 import com.jcalvopinam.console.Windows;
+import com.jcalvopinam.utils.Commons;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
@@ -24,7 +25,7 @@ public class HomeController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String welcome(Model model) {
 
-        model.addAttribute("PID", "This is a POC of logback with MDC");
+        model.addAttribute(Commons.PID, "This is a POC of logback with MDC");
 
         MDC.put("PID", String.format("PID: [%s]", PID));
         logger.debug("OS from Web");

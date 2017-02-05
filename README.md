@@ -1,8 +1,11 @@
-##This is a POC of SLF4/LOG4J
+**This is a POC of MDC - SLF4/LOG4J**
+--
+* The goal is add PID "Process Id" (dummy) to MDC logger (Mapped Diagnostic Context).
+* This is very useful when you want to attach some additional metadata to every line written-out to the logs.
+* The same logic you can use to log for example the user session Id.
 
-* The goal is add PID "Process Id" (dummy) to logger.
-* The same logic you can use to log for example the user session Id
+**_You can test it from the CONSOLE, WEB or THREADS:_**
 
-You can test it from CONSOLE or WEB:
-* CONSOLE: print log on command line, run App.java.
-* WEB: print log on command line, run jetty server ([http://localhost:8080/poc-logback](http://localhost:8080/poc-logback))
+* **CONSOLE:** print log on command line, run HomeConsole.java.
+* **WEB:** print log on command line, run HomeController.java with Jetty embedded server ([http://localhost:8080/poc-logback](http://localhost:8080/poc-logback)).
+* **THREADS:** print log on command line, run HomeThread.java.
