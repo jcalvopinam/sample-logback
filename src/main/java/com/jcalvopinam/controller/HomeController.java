@@ -25,7 +25,7 @@ public class HomeController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String welcome(Model model) {
 
-        model.addAttribute(Commons.PID, "This is a POC of logback with MDC");
+        model.addAttribute(Commons.PID, "This is a Sample of logback with MDC");
 
         MDC.put("PID", String.format("PID: [%s]", PID));
         logger.debug("OS from Web");

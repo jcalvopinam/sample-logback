@@ -3,10 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jcalvopinam</groupId>
-    <artifactId>poc-logback</artifactId>
+    <artifactId>sample-logback</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>poc-logback</name>
+    <name>sample-logback</name>
 
     <properties>
         <jdk.version>1.8</jdk.version>
@@ -86,7 +86,7 @@
                 <configuration>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <webApp>
-                        <contextPath>/poc-logback</contextPath>
+                        <contextPath>/sample-logback</contextPath>
                     </webApp>
                 </configuration>
             </plugin>
@@ -99,7 +99,7 @@
                 <configuration>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <webApp>
-                        <contextPath>/poc-logback</contextPath>
+                        <contextPath>/sample-logback</contextPath>
                     </webApp>
                     <connectors>
                         <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">

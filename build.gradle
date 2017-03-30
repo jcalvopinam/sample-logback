@@ -35,6 +35,6 @@ buildscript {
 
 gretty {
   port = 8080
-  contextPath = 'poc-logback'
+  contextPath = 'sample-logback'
   servletContainer = 'jetty9'
 }

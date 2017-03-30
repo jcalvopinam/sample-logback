@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
 
-    <display-name>POC - LOGBACK</display-name>
+    <display-name>Sample - LOGBACK</display-name>
 
     <servlet>
         <servlet-name>init-dispatcher</servlet-name>
