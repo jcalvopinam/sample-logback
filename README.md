@@ -6,6 +6,6 @@
 
 **_You can test it from the CONSOLE, WEB or THREADS:_**
 
-* **CONSOLE:** print log on command line, run HomeConsole.java.
-* **WEB:** print log on command line, run HomeController.java with Jetty embedded server ([http://localhost:8080/sample-logback](http://localhost:8080/sample-logback)).
-* **THREADS:** print log on command line, run HomeThread.java.
+* **CONSOLE:** print log on command line, run `HomeConsole.java`.
+* **WEB:** print log on command line, run `HomeController.java` with `Jetty` embedded server and go to [http://localhost:8080/sample-logback](http://localhost:8080/sample-logback).
+* **THREADS:** print log on command line, run `HomeThread.java`.
