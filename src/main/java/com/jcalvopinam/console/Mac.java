@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author juanca <juan.calvopina+dev@gmail.com>
+ * @author juanca <juan.calvopina@gmail.com>
  */
 public class Mac extends OS {
 

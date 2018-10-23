@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 
 /**
- * @author juanca <juan.calvopina+dev@gmail.com>
+ * @author juanca <juan.calvopina@gmail.com>
  */
 public class HomeThread {
 

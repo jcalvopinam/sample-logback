@@ -3,7 +3,7 @@ package com.jcalvopinam.utils;
 import java.util.UUID;
 
 /**
- * @author juanca <juan.calvopina+dev@gmail.com>
+ * @author juanca <juan.calvopina@gmail.com>
  */
 public class Commons {
 
